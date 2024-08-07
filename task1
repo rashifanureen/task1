@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Delight</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Chocolate Delight</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#types">Types of Chocolate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Chocolate</h2>
+        <img src="about-chocolate.jpg" alt="About Chocolate">
+        <p>Chocolate is a beloved treat enjoyed by people all around the world. It is made from cocoa beans and comes in various forms, including dark, milk, and white chocolate. Chocolate can be enjoyed on its own or used in a variety of recipes.</p>
+    </section>
+    
+    <section id="types">
+        <h2>Types of Chocolate</h2>
+        <div class="type">
+            <h3>Dark Chocolate</h3>
+            <img src="dark-chocolate.jpg" alt="Dark Chocolate">
+            <p>Dark chocolate is known for its rich and intense flavor. It contains a high percentage of cocoa and is often considered the healthiest form of chocolate due to its antioxidant properties.</p>
+        </div>
+        <div class="type">
+            <h3>Milk Chocolate</h3>
+            <img src="milk-chocolate.jpg" alt="Milk Chocolate">
+            <p>Milk chocolate is sweeter and creamier than dark chocolate. It contains milk powder or condensed milk, which gives it a smooth texture and a sweet taste that many people love.</p>
+        </div>
+        <div class="type">
+            <h3>White Chocolate</h3>
+            <img src="white-chocolate.jpg" alt="White Chocolate">
+            <p>White chocolate is made from cocoa butter, sugar, and milk solids. It does not contain cocoa solids, which gives it a creamy and sweet flavor without the bitterness of dark chocolate.</p>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@chocolatedelight.com</p>
+        <p>Phone: 1234567890</p>
+    </footer>
+</body>
+</html>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #6B4226;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #6B4226;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+section img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.type {
+    margin: 1rem 0;
+}
+
+.type h3 {
+    background-color: #6B4226;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #6B4226;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+</style>
